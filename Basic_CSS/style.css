@@ -1,0 +1,790 @@
+h1{/*selector*/
+  /*diclearation*/color:/*property*/ red; /*value*/
+  font-size: 15px;
+}
+p{
+  font-size: 15px;
+  color: green;
+  border: 5px solid tomato;
+}
+#header{ /*id select by #*/
+  background: #ddd;
+  padding: 20px;
+  font-size: 18px;
+}
+.body{ /*class select by . */
+  background: red; color: #fff;
+  padding: 10px; /*padding for internal space*/
+}
+h1, p, .body, #header{ /*grouping CSS*/
+  /*text-align: center;*/
+}
+/*css colors*/
+.HexColorCode h1{
+  color: aqua;
+}
+.HexColorCode p{
+  color: blue;
+  font-size: 20px;
+  border: 0px;
+}
+
+/*CSS Boarder*/
+.border{
+  border: 10px solid #ff0000;
+}
+.pre{
+  border: 3px dashed gold;
+  border-style: solid; border-color: aqua;
+  border-width: 15px;
+}
+.border h1{
+  font-size: 20px;
+  border: 5px double green;
+}
+.bp{
+  border: 2px dotted salmon;
+}
+.border h2{
+  font-size: 15px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: aqua green red blue;
+}
+
+/*CSS Paddin Margine*/
+.margine{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 10px solid #ff0000;
+}
+.padding{
+  margin-top: 0px;
+  padding: 10px;
+  border: 3px dashed gold;
+  border-style: solid; border-color: aqua;
+  border-width: 15px;
+}
+.margine h1{
+  margin: 0px 20px;
+  padding: 5px;
+  font-size: 20px;
+  border: 5px double green;
+}
+.margine p{
+  margin: 10px 20px;
+  padding: 10px;
+  border: 2px dotted salmon;
+}
+.margine pre{
+  margin: 10px;
+  padding: 10px;
+  border: 2px dotted salmon;
+}
+.margine h2{
+  text-align: center;
+  margin: 10px 20px;
+  font-size: 25px;
+  border-style: groove;
+  border: 10px 10px;
+  border-color: aqua green red blue;
+}
+
+.marpad{
+  background: #0000ff;
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+}
+
+/*width & hight*/
+.width_hight{
+  margin-bottom: 20px;
+  background: red; width: 60%; height: 200px
+}
+.liner_gradient{
+  background: linear-gradient(red, green);
+  width: 60%; height: 200px
+}
+.liner_gradient1{
+  margin: 10px 0px;
+  background: linear-gradient(-90deg, red, green);
+  width: 100%; height: 200px; max-width: 600px;
+}
+.liner_gradient2{
+  margin: 10px 0px;
+  background: linear-gradient(-90deg, red, green);
+  width: 100%; height: 200px; min-width: 600px;
+}
+html, body{
+  height: 100%;
+}
+.liner_gradient3{
+  height: 100%;
+  margin-bottom: 15px;
+  background: linear-gradient(-90deg, red, green);
+  width: 100%; height: 100%; min-width: 600px; max-height: 500px;
+}
+.inherit{
+  height: 100%;
+  background: linear-gradient(-90deg, red, green);
+  width: auto; height: inherit; min-width: 600px
+}
+.initial{
+  margin: 10px 0px;
+  height: 100%;
+  background: linear-gradient(-90deg, red, green);
+  width: auto; height: initial; min-width: 600px
+}
+.textformat h1{
+  text-align: left;
+  color: #0000ff;
+}
+.textformat h2{
+  font-size: 15px;
+  text-align: center;
+  color: green;
+}
+.textformat h3{
+  font-size: 15px;
+  text-align: right;
+  color: rgb(155, 200, 128);
+}
+.textformat p{
+  font-size: 15px;
+  text-align: justify;
+  color: blueviolet;
+}
+.textformat a{
+  font-size: 15px;
+  color: blueviolet;
+}
+.a{
+  font-size: 15px;
+  text-decoration: none;
+  color: red;
+}
+.a1{
+  font-size: 15px;
+  text-decoration: line-through;
+  color: red;
+}
+.a2{
+  font-size: 15px;
+  text-decoration: overline;
+  color: red;
+}
+.a3{
+  font-size: 15px;
+  text-transform: uppercase;
+  color: red;
+}
+.a4{
+  font-size: 15px;
+  text-transform: lowercase;
+  color: red;
+}
+.a5{
+  font-size: 15px;
+  text-transform: capitalize;
+  color: red;
+}
+.a6{
+  background: url(Logo.png);
+  background-repeat: no-repeat;
+  font-size: 15px;
+  text-indent: 100px;
+}
+.a7{
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 15px;
+  text-indent: 100px;
+}
+.linehight{
+  font-size: 15px;
+  /*line-height: 1.3em;*/
+  line-height: 1.8;
+}
+.textshadow{
+  font-size: 25px;
+  color: #ff0000;
+  text-shadow: 10px 5px 10px #000;
+}
+.font h1{
+  font-family: sans-serif;
+  text-align: left;
+  color:#000;
+  font-size: 25px;
+
+}
+.arial{
+  font-family: Arial, Helvetica, sans-serif
+  ;
+  text-align: left;
+  color:#000;
+  font-size: 25px;
+}
+.verdana{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color:#000;
+  font-size: 25px;
+}
+.font h2{
+  font-family: serif;
+  font-size: 25px;
+}
+.Georgia{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.font h2{
+  font-family: serif;
+  font-size: 25px;
+}
+
+.font h3{
+  font-family: monospace;
+  font-size: 25px;
+}
+.lucida{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+.font h4{
+  font-family: cursive;
+  font-size: 25px;
+}
+.italic{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+}
+.bold{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: 25px;
+}
+.initial{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: initial;
+  font-size: 25px;
+}
+
+.three_em{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.125em;
+}
+.pxl{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.deflFont{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+}
+.fontVarient h1{
+  font-size: 20px;
+  font-variant: small-caps;
+  border: 0px;
+}
+.fontVarient h2{
+  font-size: 20px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  border: 0px;
+}
+.fontVarient p{
+  font-size: 20px;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  border: 0px;
+}
+.csslink{
+  color: #000;
+}
+.aOne{
+  color: #000;
+  text-decoration: none;
+}
+.aTwo{
+  color: #000;
+  text-decoration: overline;
+}
+.aThree{
+  color: #000;
+  text-decoration: line-through;
+}
+/*Procudo*/
+a:link{
+  color: red;
+  }
+a:visited{
+  color: green;
+}
+a:hover{
+  color:blue;
+}
+.button a{
+  display: inline-block;
+  color: #262626;
+  background: aqua;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-style: bold;
+  font-size: 100%;
+}
+.button a:visited{
+  color: green;
+  background-color: yellow;
+  font-style: bold;
+  font-size: 100%;
+}
+.button a:hover{
+  color:red;
+  background-color: greenyellow;
+  font-style: bold;
+  font-size: 100%;
+  /*transition: 0.5s; standard*/
+  transition: 1.5s;
+}
+.disPro h1{
+  border: 5px double green;
+}
+.disPro span{
+  border: 5px double green;
+}
+.inline{
+  border: 5px double green;
+  display: inline;
+}
+.inlineblock{
+  border: 5px double green;
+  display: inline-block;
+}
+.block{
+  border: 5px double green;
+  display: block;
+}
+.manu{
+  display: block;
+}
+.manu li{
+  display: inline-block;
+  color: #262626;
+  background: aqua;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.manu a{
+  text-decoration: none;
+}
+
+.position{
+  width: 400px;
+  height: 400px;
+  background: lightgreen;
+}
+.positionP{
+  border: 0px;
+  text-align: justify;
+}
+.position1{
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  background: lightgreen;
+  position: static;
+}
+.position2{
+  top: 50px;
+  width: 400px;
+  height: 400px;
+  background: lightgreen;
+  position: relative;
+}
+
+.position3{
+  top: 0px;
+  right: 0px;
+  width: 60%;
+  height: 30px;
+  background: lightpink;
+  position: fixed;
+}
+.position4{
+  top: 0px;
+  width: 400px;
+  height: 400px;
+  background: lightgreen;
+  position: relative;
+}
+.position5{
+  width: 40px;
+  height: 40px;
+  background: darkgreen;
+  
+  top: auto;
+  right: 0px;
+}
+.position6{
+  width: 100%;
+  height: 30px;
+  background: red;
+  position: sticky;
+  top: 0px;
+  right: 0px;
+}
+.overfp{
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+  background: turquoise;
+  /*overflow: visible; are defoult*/
+}
+.overflow p{
+  text-align: justify;
+  border: 5px;
+}
+.overfp1{
+  width: 300px;
+  height: 300px;
+  border: 0px;
+  background: turquoise;
+  overflow: hidden;
+}
+.overfp2{
+  width: 300px;
+  height: 300px;
+  border: 0px;
+  background: turquoise;
+  overflow: auto;
+}
+.overfp3{
+  width: 300px;
+  height: 300px;
+  border: 0px;
+  background: turquoise;
+  overflow: scroll;
+}
+.overfimg{
+  width: 300px;
+  height: 300px;
+  overflow: auto;
+}
+.overfimg1{
+  width: 300px;
+  height: 300px;
+  overflow-x: hidden;
+}
+.overfimg2{
+  width: 300px;
+  height: 300px;
+  overflow-y: hidden;
+}
+.overfimg3{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.float img{
+  width: 100px;
+  height: auto;
+  float: left;
+}
+.float P{
+  border: none;
+  text-align: justify;
+  line-height: 1.3;
+}
+.floatimg1{
+  width: 150px;
+  height: auto;
+  float: right;
+}
+.floatimgp{
+  border: 0px;
+  text-align: justify;
+} 
+
+/*Pocudo Class*/
+.pocudoli li:first-child{
+  color: aqua;
+}
+li:last-child{
+  color: lightpink;
+}
+.pocudoli1 li:nth-child(n){
+  color: red;
+}
+.pocudoli2 li:nth-child(2n+1){
+  color: blue;
+}
+.pocudoli2 li:nth-child(2n+2){
+  color: green;
+}
+.pocudoli3 li:nth-child(2n+2){
+  color: green;
+}
+/*Pocudo Element*/
+.pocudoEle p::first-line{
+  color: maroon;
+}
+.pocudoEle p{
+  border: 0px;
+}
+/*Drop Cap*/
+.pocudoEle1 p::first-letter{
+  color: maroon;
+  font-size: 50px;
+}
+.pocudoEle1 p{
+  border: 0px;
+  font-size: 25px;
+}
+.pocudoEle1 h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: aquamarine;
+  position: relative;
+  font-size: 30px;
+  padding: 5px 0px;
+}
+.pocudoEle1 h1::after{
+  position: absolute;
+  content: "";
+  background: aquamarine;
+  width: 100px;
+  height: 5px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -0%;
+}
+.pocudoEle1 h1::before{
+  position: absolute;
+  content: "";
+  background: aquamarine;
+  width: 100px;
+  height: 5px;
+  top: 0;
+  left: 50%;
+  margin-left: -0%;
+}
+.opacity{
+  background: blue;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  opacity: 1.0;/*defoult*/
+}
+.opacity1{
+  background: blue;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  opacity: 0.50;
+}
+.opacity2{
+  background: blue;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  opacity: 0.25;
+}
+.opacity3{
+  background: blue;
+  width: 200px;
+  height: 200px;
+  /*float: left;*/
+  margin-right: 10px;
+  opacity: 0.10;
+  /*for old browser or all browser show must need to add*/
+  margin-right: 10px;
+  filter: alpha(opacity=10);
+}
+.opacity4{
+  background: blue;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  opacity: 0.10;
+  /*for old browser or all browser show must need to add*/
+  margin-right: 10px;
+  filter: alpha(opacity=10);
+}
+.navberD{
+  margin: 10px;
+}
+.navberD ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+
+}
+.navberD li{
+  display: inline-block;
+  margin-right: 5px;
+  /*float: left;*/ /*not recomendant*/
+}
+.navberD a{
+  text-decoration: none;
+  color: aliceblue;
+  background:#8e44ad; 
+  padding: 10px 25px;
+  display: block;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.navberD a:hover{
+  background: #16a085; 
+}
+
+/*.dropD{
+}*/
+.dropD ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+
+}
+.dropD li{
+  display: inline-block;
+  margin-right: 5px;
+  /*float: left;*/ /*not recomendant*/
+  position: relative;
+}
+.dropD a{
+  text-decoration: none;
+  color: aliceblue;
+  background:#8e44ad; 
+  padding: 10px 25px;
+  display: block;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.dropD a:hover{
+  background: #16a085; 
+}
+.dropD ul ul{
+   position: absolute;
+   left: -99999px; /* drop Down Manu Far from link*/
+   /*left:0; other way of huber
+   dispaly:none;*/
+   top: 40px;
+   width: 200px;
+}
+.dropD ul li:hover ul{
+   left: 0px; /* drop Down Manu Far from link*/
+   /*display: block; but it's  way some problem on ajax jequry after effect*/
+}
+.dropD ul ul a{
+   border-radius: 0px;
+   background: #8e44ad;
+   border-bottom: 2px solid rgba(199, 154, 240, 0.531);
+}
+.dropD ul ul a:hover{
+   background: hwb(282 39% 32% / 0.309);
+   color: #fff;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+input, select, textarea{
+  width: 90%;
+  padding: 10px 2%;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+select{
+  width: 94%;
+}
+textarea{
+  min-height: 100px;
+}
+input[type="submit"]{
+  background: aqua;
+  border: 1px solid aquamarine;
+  width: 200px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.5s;
+
+}
+input[type="submit"]:hover{
+  background: rgb(2, 69, 69);
+  border: 1px solid rgb(2, 26, 18);
+  color: #e7ebf0;
+  border-radius: 5px;
+}
+.search_form{
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.search_form input{
+  width: 60%;
+  float: left;
+}
+.search_form input[type="submit"]{
+  width: 35%;
+  float: left;
+  padding: 7px 3%;
+}
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+}
+.border_boxing div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.border_boxing p{
+  border: 0px;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.content-box{
+  background: #b71540;
+  height: 200px;
+  width: 400px;
+
+  padding: 50px;
+}
+.content{
+  background: #0c2461;
+  height: 200px;
+  width: 400px;
+
+  box-sizing: content-box;
+  padding: 50px;
+}
+.border-box{
+  background: #079992;
+  height: 200px;
+  width: 400px;
+
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+
+
+
+
+
